@@ -1,0 +1,114 @@
+% Nick Gerakines 2013
+% nick_gerakines_resume.tex
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+  {\setlength{\leftmargin}{#1}}%
+  \item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+  {\setlength{\leftmargin}{-0.5#1}}%
+  \item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+  #1 &
+  #2 \\
+\end{tabular*}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Nick Gerakines}}
+
+20 Springflower\ \ \textbullet
+\ \ Irvine, CA 92614 \ \ \textbullet \ \ (415) 963-1165
+\\
+nick@gerakines.net \textbullet
+\ \ github.com/ngerakines
+\end{center}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Experience}
+
+\begin{itemize}
+  \parskip=0.1em
+
+  \item
+  \headerrow
+    {\textbf{Blizzard Entertainment}}
+    {\textbf{Irvine, California}}
+  \\
+  \headerrow
+    {\emph{Sr. Software Engineer 2}}
+    {\emph{March 2010 -- Present}}
+  \begin{itemize*}
+    \item TBD
+  \end{itemize*}
+
+  \item
+  \headerrow
+    {\textbf{Electronic Arts}}
+    {\textbf{Redwood Shores, California}}
+  \\
+  \headerrow
+    {\emph{Platform Architect}}
+    {\emph{October 2008 -- February 2010}}
+  \begin{itemize*}
+    \item TBD
+  \end{itemize*}
+
+  \item
+  \headerrow
+    {\textbf{Yahoo! Inc}}
+    {\textbf{Sunnyvale, California}}
+  \\
+  \headerrow
+    {\emph{Software Engineer}}
+    {\emph{November 2006 -- October 2008}}
+  \begin{itemize*}
+    \item TBD
+  \end{itemize*}
+\end{itemize}
+
+\vspace{-0.4em}
+\subsection*{Projects}
+
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{itemize*}
+  \item TBD
+\end{itemize*}
+\end{indentsection}
+
+\vspace{-0.4em}
+\subsection*{Skills}
+
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{itemize*}
+        \item TBD
+\end{itemize*}
+\end{indentsection}
+
+\end{document}
