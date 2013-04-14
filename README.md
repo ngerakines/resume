@@ -1,4 +1,3 @@
-resume
-======
+# Building
 
-My resume
+    $ pdflatex nick_gerakines_resume.tex
