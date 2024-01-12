@@ -7,6 +7,7 @@
 \usepackage{mdwlist}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
+\usepackage{multicol}
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
 
@@ -48,6 +49,31 @@
 \end{center}
 
 \hrule
+
+\vspace{-0.4em}
+\subsection*{Skills}
+
+\begin{multicols}{2}
+
+  \begin{itemize*}
+    \item 10+ years Python
+    \item 7+ years of Go
+    \item 5+ years of Erlang, Java, C, C++, Perl
+    \item 4+ years of NodeJS, JavaScript, Ruby
+    \item 3+ years of Rust, C\#, Obj-C
+  \end{itemize*}
+
+\columnbreak
+
+\begin{itemize*}
+  \item 10+ years of DevOps / Sysadmin
+  \item 10+ years of MySQL, Postgres
+  \item 10+ years of Linux
+  \item 6+ years of Cloud Infra (AWS, GCP, Azure)
+\end{itemize*}
+
+\end{multicols}
+
 \vspace{-0.4em}
 \subsection*{Experience}
 
@@ -63,9 +89,9 @@
     {\emph{Senior Software Research Engineer}}
     {\emph{May 2023 -- Present}}
   \begin{itemize*}
-    \item Designed and implemented networks and systems to support application development, testing, and demonstration. Currently supporting multiple teams of engineers with room to grow.
-    \item Implemented AI / ML / CS systems and components to support the cognitively enhanced complex event processing and autonomy mission.
-    \item Python, Rust, AI/ML/CS, Kubernetes, Ansible, LLMs, NLP (AMR), Data Warehousing, DevOps, Leadership
+    \item I designed and implemented network infrastructure, hardware provisioning, and virtual device provisioning using ansible and Kubernetes (k3s.io) on on-prem hardware including bespoke, purpose hardware provided by the Air Force. These networks support the full lifecycle of development, testing, and demonstration. Currently supporting multiple teams of engineers with room to grow.
+    \item Implemented AI / ML / CS training, execution, library, and API daemons and processes that ran on custom and commodity hardware to support the cognitively enhanced complex event processing and autonomy mission. This included complex natural language processing and retrieval-augmented generation.
+    \item Created job scheduling tools in Python and Rust for bare metal, virtual machine, and distributed system container orchestration and management.
   \end{itemize*}
 
   \item
@@ -77,10 +103,9 @@
     {\emph{Principal Software Engineer}}
     {\emph{July 2021 -- June 2023}}
   \begin{itemize*}
-    \item Implemented the proof of concept that became our core platform including AI/ML/CS prediction engine and SaaS product. Currently supporting hundreds of tenants at thousands of invoices an hour.
-    \item Designed, implemented, maintained, and enhanced application platform and underlying AWS infrastructure. Enabled rapid scale up of tenants to new datacenters within minutes.
-    \item Worked with leadership to create a sustaining product and was able to grow the team from 2 engineers to 12 engineers over 2 years time without any VC money.
-    \item DevOps, Python, AWS, Rust, AI/ML, React, Kubernetes, Terraform, Data Pipelines, Data Warehousing, Leadership
+    \item Implemented the proof of concept that became our core platform including AI/ML prediction engine and SaaS product using Python. Currently supporting hundreds of tenants at thousands of invoices an hour.
+    \item Designed, implemented, maintained, and enhanced application platform and underlying AWS infrastructure using Kubernetes and Terraform. Enabled rapid scale up of tenants to new datacenters within minutes.
+    \item As engineer \#1, I worked with leadership to produce a profitable product and use its success to expand the engineering organization.
   \end{itemize*}
 
   \item
@@ -92,10 +117,9 @@
     {\emph{Infrastructure Engineer}}
     {\emph{April 2020 -- July 2021}}
   \begin{itemize*}
-    \item Designed and implemented replacement for DNS and consul as primary service-discovery mechanism using multi-cluster, multi-cloud, multi-region application and envoy sidecar.
+    \item Designed and implemented replacement for DNS and Consul as primary service-discovery mechanism using multi-cluster, multi-cloud, multi-region Kubernetes operators in Go with envoy sidecars.
     \item Wrote internal RFCs and actively participated in the review and approval process of initiatives inside and outside of my immediate team.
     \item Responded to incidents and contributed to continuous improvement of our response processes and tools.
-    \item Golang, Kubernetes, Consul, AWS, Azure, Google Cloud, Observability
   \end{itemize*}
 
   \item
@@ -107,11 +131,9 @@
     {\emph{Principal Software Engineer | Director of Software Engineering}}
     {\emph{May 2017 -- April 2020}}
   \begin{itemize*}
-    \item Lead the Mattel Connected Products Platform team to develop IoT initiatives and products.
-    \item Scaled the Sproutling organization into a division at Mattel that was responsible for products across major division lines including Barbie, Hot Wheels, Fisher Price, and smaller product divisions.
+    \item Scaled the Sproutling organization into the Mattel Connected Products Platform division within Mattel that was responsible for products across major organization lines including Barbie, Hot Wheels, and Fisher Price.
     \item Worked with multiple functional and cross-functional teams to support existing and create new toy lines. Hot Wheels ID is an example of one product that included the creation of entirely new technologies and manufacturing processes.
     \item Provided consultation across the organization on technical and non-technical solutions to meet business needs. One example was the architecture of identity management systems and the wholistic replacement of mixed legacy authentication across Mattel.
-    \item Golang, RPC, OAuth / Identity, Google Cloud, AWS, Game Server Development, iOS, Android, NFC, Hardware/Firmware, Leadership
   \end{itemize*}
 
   \item
@@ -123,11 +145,9 @@
     {\emph{Principal Software Engineer | Director of Engineering}}
     {\emph{September 2014 -- May 2017}}
   \begin{itemize*}
-    \item Contributed to and oversaw the technical design and implementation of our product offerings.
     \item Implemented a replacement of legacy .net application stack with modern tooling that lead to 80\% reduction in production infrastructure cost and 10x increase in web application response times.
-    \item Hired and managed team of local and remote technical and non-technical staff.
+    \item Hired and managed team of local and remote technical and non-technical staff including .Net, Node, and Angular teams as well as technical writing.
     \item Performed due diligence during acquisitions and was directly responsible for technology and security onboarding of 3 brands during my tenure.
-    \item Typescript, Node, AWS, C\#, .Net Core, Docker, Leadership
   \end{itemize*}
 
   \item
@@ -184,19 +204,9 @@
 
   \item
   \headerrow
-    {\textbf{Facebook Application: I Play WoW}}
+    {\textbf{Open Source Contributions}}
     {\textbf{}}
-    I Play WoW is a Facebook application that bridges the two social worlds of Facebook and Blizzard's World of Warcraft. Sold to Electronic Arts in 2009.
-  \item
-  \headerrow
-    {\textbf{Facebook Application Development}}
-    {\textbf{ISBN 0470246669}}
-    Published in 2008, brought readers through the process of creating and maintaining a Facebook application using all of the features and tools available at the time.
-  \item
-  \headerrow
-    {\textbf{Managing AWS with Terraform}}
-    {\textbf{ISBN 9780999799604}}
-    Managing AWS with Terraform is a hands-on guide to using Terraform to manage environments in AWS. The focus was on simplicity, security, maintainability, and room for growth to fit future project needs.
+    Active in the open source community through contributions to major open source projects as well as the creation and maintenance of several.
   \item
   \headerrow
     {\textbf{Developer Community and Leadership}}
@@ -204,28 +214,12 @@
     Active in software development and technology communities and conferences. Spoke and presented at events including ACM ICFP, Erlang Factory, and language user groups. Organized events, presentations and have contributed to different projects and organizations that do so.
   \item
   \headerrow
-    {\textbf{Open Source Contributions}}
-    {\textbf{}}
-    Active in the open source community through contributions to major open source projects as well as the creation and maintenance of several.
+    {\textbf{Facebook Application Development}}
+    {\textbf{ISBN 0470246669}}
+  \item
+  \headerrow
+    {\textbf{Managing AWS with Terraform}}
+    {\textbf{ISBN 9780999799604}}
 \end{itemize}
-
-\vspace{-0.4em}
-\subsection*{Skills}
-
-\begin{indentsection}{\parindent}
-\hyphenpenalty=1000
-Technical
-\begin{itemize*}
-  \item 10+ years of DevOps experience
-  \item 10+ years of MySQL, Postgres
-  \item 10+ years of Linux administration, configuration and usage
-  \item 7+ years of Golang, Python
-  \item 6+ years of AWS (conosole, API, libraries)
-  \item 5+ years of Erlang, Java, C, C++, Perl
-  \item 4+ years of NodeJS, JavaScript, Rust, Ruby, C\#, Obj-C
-  \item GCP, Unity, AR / VR, ActivityPub, OAuth, PKI, Intellectually Property Rights, and more protocols than I can list here.
-\end{itemize*}
-
-\end{indentsection}
 
 \end{document}
